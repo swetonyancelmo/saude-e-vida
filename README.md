@@ -12,18 +12,6 @@ Acesse a aplicação em: [saude-e-vida-seven.vercel.app](https://saude-e-vida-se
 - CSS3
 - JavaScript (DOM)
 
-## 📦 Estrutura do Projeto
-
-saude-e-vida/
-├── index.html
-├── js/
-│ └── index.js
-├── styles/
-│ └── style.css
-└── image/
-└── (imagens utilizadas no projeto)
-
-
 ## 📋 Funcionalidades
 
 - Entrada de peso e altura
@@ -34,11 +22,11 @@ saude-e-vida/
 ## 📥 Como Usar
 
 1. Clone o repositório:
-   ```bash
+   
    git clone https://github.com/swetonyancelmo/saude-e-vida.git
 
 2. Navegue até o diretório do projeto:
-  ```bash
+  
   cd saude-e-vida
 
 3. Abra o arquivo index.html em seu navegador preferido.
