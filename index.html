@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="shortcut icon" href="/image/883360.png" type="image/x-icon">
+  <title>Saúde é vida</title>
+</head>
+<body>
+
+  <section>
+    <div class="textoInicio">
+      <h2>Vamos ver como está o seu <span class="color-span">índice corporal</span> ?</h2>
+      <p>Informe os dados solicitados abaixo: </p>
+    </div>
+    
+    <div class="info">
+      <p>Peso (KG): <input type="number" name="Peso" id="peso"></p>
+      <p>Altura (Mt): <input type="number" name="Altura" id="altura"></p>
+    </div>
+
+    <button onclick="calcularImc()">Enviar</button>
+
+    <h3 id="resposta"></h3>
+
+  </section>
+
+  <script src="/js/index.js"></script>
+</body>
+</html>
